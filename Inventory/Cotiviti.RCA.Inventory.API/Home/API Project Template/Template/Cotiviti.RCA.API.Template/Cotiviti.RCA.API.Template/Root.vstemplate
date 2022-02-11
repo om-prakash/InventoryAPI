@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Cotiviti RCA API Solution Template</Name>
+    <Description>Cotiviti RCA API Solution Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Cotiviti</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon></Icon>
+  </TemplateData>
+  <TemplateContent>
+	<ProjectCollection>
+            <ProjectTemplateLink ProjectName="Cotiviti.RCA.$projectname$.API">
+                Cotiviti.RCA.API\API.vstemplate
+            </ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="Cotiviti.RCA.$projectname$.Infrastructure">
+                Cotiviti.RCA.API.Infrastructure\Infrastructure.vstemplate
+            </ProjectTemplateLink>
+			<ProjectTemplateLink ProjectName="Cotiviti.RCA.$projectname$.Test">
+                Cotiviti.RCA.API.Test\Test.vstemplate
+			</ProjectTemplateLink>
+	</ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

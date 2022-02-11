@@ -1,0 +1,62 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Cotiviti.RCA.API</Name>
+    <Description>Cotiviti.RCA.API</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Cotiviti.RCA.API</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Cotiviti.RCA.API.csproj" File="Cotiviti.RCA.API.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="FolderProfile.pubxml">FolderProfile.pubxml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="BusinessLayer" TargetFolderName="BusinessLayer">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".gitkeep">.gitkeep</ProjectItem>
+      </Folder>
+      <Folder Name="Common" TargetFolderName="Common">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".gitkeep">.gitkeep</ProjectItem>
+      </Folder>
+      <Folder Name="Controllers" TargetFolderName="Controllers">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DefaultController.cs">DefaultController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WeatherForecastController.cs">WeatherForecastController.cs</ProjectItem>
+      </Folder>
+      <Folder Name="DataAccess" TargetFolderName="DataAccess">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".gitkeep">.gitkeep</ProjectItem>
+      </Folder>
+      <Folder Name="Enums" TargetFolderName="Enums">
+        <ProjectItem ReplaceParameters="true" TargetFileName="LogTypeEnum.cs">LogTypeEnum.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ILog.cs">ILog.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Log.cs">Log.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="WeatherForecast.cs">WeatherForecast.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Stub" TargetFolderName="Stub">
+        <ProjectItem ReplaceParameters="false" TargetFileName=".gitkeep">.gitkeep</ProjectItem>
+      </Folder>
+      <Folder Name="Utility" TargetFolderName="Utility">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Logger.cs">Logger.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Dockerfile">Dockerfile</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName=".dockerignore">.dockerignore</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
