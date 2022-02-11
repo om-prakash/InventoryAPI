@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+Inventory/Cotiviti.RCA.Inventory.API/Home/Okta/ClassFiles/ClassFiles/
+Inventory/Cotiviti.RCA.Inventory.API/Home/Angular/
